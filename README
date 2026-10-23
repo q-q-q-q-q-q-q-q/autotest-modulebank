@@ -1,0 +1,11 @@
+Для вашего удобства
+
+docker compose up -d
+
+pip install pytest psycopg[binary] python-dotenv
+
+рабочий тест -
+pytest test_main.py -v
+
+нерабочий -
+pytest test_will_fall.py -v
